@@ -1,8 +1,50 @@
-# React + Vite
+# IETEC Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to run the page
 
-Currently, two official plugins are available:
+Make sure you have npm and pnpm installed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clone this repo
+
+```bash
+git clone https://github.com/sajayprakash/IETE-Project
+```
+
+- Go into the repo folder using terminal (You can use vscode's integrated terminal)
+
+```bash
+cd IETE-Project
+```
+
+- Install dependencies
+
+```bash
+pnpm install
+```
+
+- Run the server
+
+```bash
+pnpm dev
+```
+
+## How to edit source code
+
+- Go into the "src" folder and edit the files.
+
+```bash
+cd src
+```
+
+- The **components** folder contains all the components used in the website (Eg: Navbar, Footer).
+
+- **App.jsx** contains the main code for the website that will be rendered. It calls the components and renders them. Example:
+  ```jsx
+  return (
+    <>
+      <Navbar /> /* This will render the Navbar component */
+      <Intro /> /* This will render the Intro component */
+    </>
+  );
+  ```
+- **Assets** folder contains all the images and other files used in the website.
