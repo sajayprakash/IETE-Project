@@ -3,7 +3,7 @@ export default function Navbar() {
     <nav className="w-full flex items-center font-bold justify-between">
       <div className="flex">
         <img
-          src="src/assets/ietec-logo.png"
+          src="../assets/ietec-logo.png"
           alt="ietec-logo"
           className="w-20 pr-2"
         />
