@@ -3,14 +3,18 @@ export default function Navbar() {
   return (
     <nav className="w-full flex items-center font-bold justify-between">
       <div className="flex">
-        <img src={logo} alt="ietec-logo" className="w-20 pr-2" />
-        <p className="text-xs py-2">
+        <img
+          src={logo}
+          alt="ietec-logo"
+          className="md:w-20 md:h-20 w-14 h-14 m-2"
+        />
+        <p className="text-xs mt-2 md:mt-6">
           The Institution Of Electronics and <br />
           Telecommunication Engineers, <br />
           Chennai
         </p>
       </div>
-      <ul className="flex text-2xl ">
+      <ul className="md:flex md:text-2xl hidden">
         <li className="pl-4">Home</li>
         <li className="pl-4">About</li>
         <li className="pl-4">Executive</li>
