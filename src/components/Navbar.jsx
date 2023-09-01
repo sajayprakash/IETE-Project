@@ -1,12 +1,9 @@
+import logo from "../assets/ietec-logo.png";
 export default function Navbar() {
   return (
     <nav className="w-full flex items-center font-bold justify-between">
       <div className="flex">
-        <img
-          src="../assets/ietec-logo.png"
-          alt="ietec-logo"
-          className="w-20 pr-2"
-        />
+        <img src={logo} alt="ietec-logo" className="w-20 pr-2" />
         <p className="text-xs py-2">
           The Institution Of Electronics and <br />
           Telecommunication Engineers, <br />
