@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-purple-gradient {
+  background: linear-gradient(
+    180deg,
+    #162eff 0%,
+    #3c0bff 42.14%,
+    #7000ff 100%,
+    #7000ff 100%
+  );
+}

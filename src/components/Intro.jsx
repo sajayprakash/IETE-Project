@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <>
-      <div className="bg-gray-200 py-52 md:flex md:p-32">
+      <div className="bg-gray-200 md:py-52 py-32 md:flex md:p-32">
         <h1 className="md:text-6xl md:p-32 text-3xl text-center font-bold ">
           Learning Today, <br />
           Leading Tomorrow
@@ -10,7 +10,7 @@ export default function Intro() {
           <h2 className="md:text-3xl md:pb-9 text-xl pb-4 font-bold">
             Upcoming Events &amp; Updates
           </h2>
-          <div className="bg-blue-700 rounded-md md:max-w-md md:flex md:p-6 max-w-sm text-white">
+          <div className="bg-purple-gradient rounded-md md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white">
             <p className="md:text-2xl font-bold text-center">30 MAY</p>
             <div className="md:pl-6 md:text-xl text-center">
               <p className="font-bold ">WEBINAR ON IOT SECURITY</p>
@@ -21,6 +21,26 @@ export default function Intro() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="bg-purple-gradient text-white font-bold md:p-16 p-8">
+        <h1 className="md:text-4xl md:max-w-5xl">
+          "INNOVATION FOR THE PEOPLE AND BY THE PEOPLE IS THE REACTION OF OUR
+          NEW INDIA"
+          <p className="md:text-sm text-gray-400">
+            - NARENDRA MODI, HON’BLE PRIME MINISTER OF INDIA.
+          </p>
+        </h1>
+        <p className="pt-16 md:max-w-5xl">
+          Chennai Centre of IETE is committed to attain commanding heights and
+          achieve the status of “Centre of Excellence” in Technical, Engineering
+          & Management education by harnessing the best practices in educational
+          innovation and through its concerted endeavors like quality teaching,
+          industrial consultancy and training to the aspirants including
+          corporate training.
+        </p>
+        <button className="rounded-sm bg-white text-black mt-4">
+          Read More
+        </button>
       </div>
     </>
   );
