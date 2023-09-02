@@ -38,7 +38,7 @@ export default function Intro() {
           industrial consultancy and training to the aspirants including
           corporate training.
         </p>
-        <button className="rounded-sm bg-white text-black mt-4">
+        <button className="rounded-sm bg-white text-black mt-4 p-1">
           Read More
         </button>
       </div>
