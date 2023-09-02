@@ -9,7 +9,7 @@ export default function Activities() {
           <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
             <div class="inline-block px-3">
               <div class="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black text-white md:pt-24 pt-16 m-7 pb-28">
+                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
                   EVENT IMAGE
                 </h2>
                 <h2 className="md:text-lg pb-8 font-bold">
@@ -27,7 +27,7 @@ export default function Activities() {
             </div>
             <div class="inline-block px-3">
               <div class="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black text-white md:pt-24  pt-16 m-7 pb-28">
+                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
                   EVENT IMAGE
                 </h2>
                 <h2 className="md:text-lg pb-8 font-bold">
@@ -45,7 +45,7 @@ export default function Activities() {
             </div>
             <div class="inline-block px-3">
               <div class="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black text-white md:pt-24 pt-16 m-7 pb-28">
+                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
                   EVENT IMAGE
                 </h2>
                 <h2 className="md:text-lg pb-8 font-bold">
@@ -63,7 +63,7 @@ export default function Activities() {
             </div>
             <div class="inline-block px-3">
               <div class="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black text-white md:pt-24 pt-16 m-7 pb-28">
+                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
                   EVENT IMAGE
                 </h2>
                 <h2 className="md:text-lg pb-8 font-bold">
@@ -81,7 +81,7 @@ export default function Activities() {
             </div>
             <div class="inline-block px-3">
               <div class="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black text-white md:pt-24 pt-16 m-7 pb-28">
+                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
                   EVENT IMAGE
                 </h2>
                 <h2 className="md:text-lg pb-8 font-bold">
