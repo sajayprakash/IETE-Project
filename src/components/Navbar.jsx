@@ -16,22 +16,22 @@ export default function Navbar() {
       </div>
       <ul className="md:flex md:text-2xl hidden">
         <li className="pl-4">
-          <a href="">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="pl-4">
-          <a href="">About</a>
+          <a href="/about">About</a>
         </li>
         <li className="pl-4">
-          <a href="">Executive</a>
+          <a href="/executive">Executive</a>
         </li>
         <li className="pl-4">
-          <a href="">Events</a>
+          <a href="/events">Events</a>
         </li>
         <li className="pl-4">
-          <a href="">Membership</a>
+          <a href="/membership">Membership</a>
         </li>
         <li className="pl-4">
-          <a href="">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </nav>
