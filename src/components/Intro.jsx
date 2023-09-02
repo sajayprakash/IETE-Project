@@ -6,8 +6,8 @@ export default function Intro() {
           Learning Today, <br />
           Leading Tomorrow
         </h1>
-        <div className="md:pt-32 pt-16">
-          <h2 className="md:text-3xl md:pb-9 text-xl pb-4 font-bold">
+        <div className="md:pt-32 md:pl-20 pt-16">
+          <h2 className="md:text-3xl md:pb-9 text-xl text-center pb-4 font-bold">
             Upcoming Events &amp; Updates
           </h2>
           <div className="bg-purple-gradient rounded-md md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white">
