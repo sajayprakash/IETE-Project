@@ -16,7 +16,7 @@ export default function Footer() {
               placeholder="Enter email"
               className="rounded-sm text-black focus:outline-none p-2"
             />
-            <button className="rounded-lg bg-black p-3 md:ml-8 ml-4">
+            <button className="rounded-lg bg-black md:p-3 p-2 md:ml-10">
               Subscribe
             </button>
           </div>
