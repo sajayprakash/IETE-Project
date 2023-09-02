@@ -2,7 +2,7 @@ export default function Intro() {
   return (
     <>
       <div className="bg-gray-200 md:py-52 py-32 md:flex md:p-32">
-        <h1 className="md:text-6xl md:p-32 text-3xl text-center font-bold ">
+        <h1 className="md:text-6xl md:m-36 pb-3 text-3xl text-center font-bold hover:bg-gradient-to-bl hover:from-sky-400 hover:to-blue-500 hover:bg-clip-text hover:text-transparent hover:transition-colors hover:duration-500">
           Learning Today, <br />
           Leading Tomorrow
         </h1>
