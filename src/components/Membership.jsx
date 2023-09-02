@@ -31,7 +31,7 @@ export default function Membership() {
       </div>
 
       <div className="md:flex md:justify-between md:m-20 md:mx-96 m-4">
-        <div className="text-center font-bold bg-gray-300 max-w-sm rounded-lg mb-4">
+        <div className="text-center font-bold bg-gray-300 max-w-sm rounded-lg mb-4 hover:shadow-lg">
           <h1 className="md:text-2xl pt-4">Corporate Members</h1>
           <ol className="p-4 md:py-28 text-left md:text-xl list-decimal list-inside">
             <li>Honorary Fellow (HF) (Elected)</li>
@@ -41,7 +41,7 @@ export default function Membership() {
             <li>Associate Member(AM)</li>
           </ol>
         </div>
-        <div className="text-center font-bold bg-gray-300 max-w-sm rounded-lg mb-4">
+        <div className="text-center font-bold bg-gray-300 max-w-sm rounded-lg mb-4 hover:shadow-lg">
           <h1 className="md:text-2xl pt-4">Non Corporate Members</h1>
           <ol className="p-4 md:py-28 text-left md:text-xl list-decimal list-inside">
             <li>Honorary Fellow (HF) (Elected)</li>
