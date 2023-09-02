@@ -15,12 +15,24 @@ export default function Navbar() {
         </p>
       </div>
       <ul className="md:flex md:text-2xl hidden">
-        <li className="pl-4">Home</li>
-        <li className="pl-4">About</li>
-        <li className="pl-4">Executive</li>
-        <li className="pl-4">Events</li>
-        <li className="pl-4">Membership</li>
-        <li className="pl-4">Contact</li>
+        <a href="">
+          <li className="pl-4">Home</li>
+        </a>
+        <a href="">
+          <li className="pl-4">About</li>
+        </a>
+        <a href="">
+          <li className="pl-4">Executive</li>
+        </a>
+        <a href="">
+          <li className="pl-4">Events</li>
+        </a>
+        <a href="">
+          <li className="pl-4">Membership</li>
+        </a>
+        <a href="">
+          <li className="pl-4">Contact</li>
+        </a>
       </ul>
     </nav>
   );
