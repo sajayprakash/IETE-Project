@@ -1,4 +1,5 @@
 // import Events from './Events'
+import Footer from "./Footer"
 import HorizontalScroll from "./HorizontalScroll"
 import Navbar from "./Navbar"
 export default function Events(){
@@ -113,6 +114,7 @@ export default function Events(){
                 </div>
             </div>
             <HorizontalScroll></HorizontalScroll>
+            <Footer />
         </>
     )
  }

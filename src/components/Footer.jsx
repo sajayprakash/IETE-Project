@@ -26,19 +26,19 @@ export default function Footer() {
             <h2 className="font-bold">Useful links</h2>
             <ul>
               <li>
-                <a href="">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="">Commitee</a>
+                <a href="/executive">Executive</a>
               </li>
               <li>
-                <a href="">Events</a>
+                <a href="/events">Events</a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>
