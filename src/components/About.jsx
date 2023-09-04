@@ -8,11 +8,13 @@ import Image from './Image.jsx'
 import Nav from './Nav'
 import Comittee from './Comittee'
 import Events from './Events'
+import Navbar from './Navbar'
 
 const About = () => {
     return (
         <div className='container'>
             <div className='box'>
+                <Navbar></Navbar>
                 <Nav></Nav>
                 <Aboutmid></Aboutmid>
                 <Card></Card>
@@ -20,7 +22,7 @@ const About = () => {
                 <Footer></Footer>
             </div>
             {/* <Comittee></Comittee> */}
-            <Events></Events>
+            {/* <Events></Events> */}
         </div>
     )
 }

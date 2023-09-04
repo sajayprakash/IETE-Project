@@ -1,9 +1,12 @@
 // import Events from './Events'
 import HorizontalScroll from "./HorizontalScroll"
+import Navbar from "./Navbar"
 export default function Events(){
 
     return (
-        <>  <div className='spacee'></div>
+        <>  <Navbar />
+        
+          <div className='spacee'></div>
             <div className='width'>
                 <center>
                     <div className='fc borderr'>

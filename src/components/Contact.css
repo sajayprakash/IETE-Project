@@ -1,0 +1,62 @@
+body{
+            font-family:"excon";
+            margin-left: 10%;
+
+        }
+        #hello{
+            display: inline-block;
+            display: 40%;
+            width:40%;
+            float:left;
+   
+            
+        }
+        input[type="text"],input[type="email"]{
+            border: transparent;
+           
+            width:50%;
+            outline: none;
+            border-bottom: 1px solid gray;
+            padding-bottom: 20px;
+            
+        }
+        input:focus{
+        
+            border-bottom: 1px solid gray;
+        }
+        #qwerty{
+            padding-top: 20px;
+            background-color: blue;
+            color: white;
+            width:50%;
+            border-radius: 10px;
+            padding:5px;
+        }
+      
+      #op2{
+       
+        display: 40%;
+        width:40%;
+        margin-top: 1%;
+        
+      }
+      #qw{
+        float:right;
+    display: inline-block;
+   margin-right: 10%;
+   
+
+   height:70%;
+   width:40%;
+
+   
+       
+      }
+      address{
+        padding-top: 10px;
+        color:blue;
+        
+    display: inline-block;
+  
+      }
+        
