@@ -70,7 +70,7 @@ export default function About() {
           </li>
         </ul>
       </div>
-      <div className="bg-purple-gradient text-white flex justify-center text-center md:text-6xl text-xl md:gap-28 gap-2 mx-3 md:mx-36 md:p-8 p-2 rounded-lg">
+      <div className="bg-purple-gradient text-white flex justify-center text-center md:text-6xl text-xl md:gap-28 gap-2 mx-1 md:mx-36 md:p-8 p-2 rounded-lg">
         <h3>
           69 <br />
           STUDENTS
