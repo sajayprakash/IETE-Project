@@ -3,14 +3,11 @@ import './Contact.css'
 import love from '../images/love.jpg'
 import email from '../images/email.jpg'
 import map from '../images/map.jpg'
-import Footer from './Footer'
-import Navbar from './Navbar'
 
 const Contact = () => {
     return (
-        <>
-        <Navbar />
-        <div className='pb-10'>
+        <div>
+
             <br></br>
             <br></br>
 
@@ -58,9 +55,11 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
         </div>
-        <Footer />
-        </>
     )
 }
 
