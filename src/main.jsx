@@ -4,10 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home.jsx";
 import "./index.css";
 import Membership from "./components/Membership.jsx";
-import About from "./components/About.jsx";
-import Executive from "./components/Executive.jsx";
-import Events from "./components/Events.jsx";
-import Contact from "./components/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,24 +22,7 @@ const router = createBrowserRouter([
     path: "/membership",
     element: <Membership />,
   },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/executive",
-    element: <Executive />,
-  },
-  {
-    path: "/events",
-    element: <Events />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
 ]);
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
