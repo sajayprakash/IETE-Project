@@ -14,7 +14,7 @@ export default function Navbar() {
           Chennai
         </p>
       </div>
-      <ul className="md:flex md:text-2xl hidden">
+      <ul className="md:flex md:text-2xl hidden mx-3">
         <li className="pl-4">
           <a href="/">Home</a>
         </li>
