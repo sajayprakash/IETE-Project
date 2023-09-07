@@ -4,16 +4,16 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <div className="md:flex md:mx-10 mx-4 py-10 justify-between">
+      <div className="md:flex md:mx-10 mx-4 py-14 justify-between">
         <div className="pb-4">
           <h1 className="font-bold text-5xl">Contact us for more</h1>
-          <p className="font-normal pt-10">
+          <p className="font-normal pt-10 text-xl pl-2">
             Fill out this form and we will get back to you shortly!
           </p>
           <form action="" className="flex flex-col pt-8 max-w-md">
             <input
               type="text"
-              placeholder="Contact name"
+              placeholder="Contact Name"
               className="m-4 border-b-2 border-black"
             />
             <input
@@ -29,7 +29,12 @@ export default function Contact() {
             <input
               type="text"
               placeholder="Let's talk about your idea"
-              className="m-4 border-b-2 border-black"
+              className="m-4 mb-8 border-b-2 border-black "
+            />
+            <input
+              type="submit"
+              value="Submit"
+              className="bg-purple-gradient p-4 text-white rounded-lg md:mx-36 mx-20"
             />
           </form>
         </div>
