@@ -38,7 +38,12 @@ export default function Intro() {
           industrial consultancy and training to the aspirants including
           corporate training.
         </p>
-        <button className="rounded-sm bg-white text-black mt-4 p-1">
+        <button
+          className="rounded-sm bg-white text-black mt-4 p-1"
+          onClick={() => {
+            location.href = "/about";
+          }}
+        >
           Read More
         </button>
       </div>
