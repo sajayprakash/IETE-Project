@@ -29,6 +29,30 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   },
+  {
+    path: "/executive",
+    element: (
+      <div className="text-3xl text-center">
+        This Page is under development, check again later!
+        <br />
+        <a href="/" className="text-violet-800">
+          Go back home
+        </a>
+      </div>
+    ),
+  },
+  {
+    path: "/events",
+    element: (
+      <div className="text-3xl text-center">
+        This Page is under development, check again later!
+        <br />
+        <a href="/" className="text-violet-800">
+          Go back home
+        </a>
+      </div>
+    ),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
