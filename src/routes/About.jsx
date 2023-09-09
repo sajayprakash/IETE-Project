@@ -72,17 +72,17 @@ export default function About() {
       </div>
       <div className="bg-purple-gradient text-white flex justify-center text-center md:text-6xl text-xl md:gap-28 gap-2 mx-1 md:mx-36 md:p-8 p-2 rounded-lg">
         <h3>
-          69 <br />
+          1300 <br />
           STUDENTS
         </h3>
         <h3>
-          69 <br /> STAFF
+          2500 <br /> STAFF
         </h3>
         <h3>
-          69 <br /> EVENTS
+          50 <br /> EVENTS
         </h3>
         <h3>
-          69 <br /> COLLEGES
+          10 <br /> COLLEGES
         </h3>
       </div>
       <div className="md:text-3xl pt-10">
