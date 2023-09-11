@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <>
-      <div className="bg-gray-200 py-32 md:flex md:p-32">
+      <div className="bg-indigo-100 md:flex">
         <h1 className="md:text-6xl md:m-36 pb-3 text-3xl text-center font-bold hover:bg-gradient-to-bl hover:from-sky-400 hover:to-blue-500 hover:bg-clip-text hover:text-transparent hover:transition-colors hover:duration-500">
           Learning Today, <br />
           Leading Tomorrow
@@ -22,6 +22,24 @@ export default function Intro() {
           </div>
         </div>
       </div>
+      <div className=" bg-indigo-100">
+        <h2 className="pt-10 text-xl pb-8 ml-20 bg-indigo-100">  {/*md:max-w-7xl */}
+          Chennai Centre of IETE is committed to attain commanding heights and
+          achieve the status of “Centre of Excellence” in Technical, Engineering
+          & Management education by harnessing the best practices in educational
+          innovation and through its concerted endeavors like quality teaching,
+          industrial consultancy and training to the aspirants including
+          corporate training.
+        </h2>
+        <button
+          className="rounded-lg mb-10 text-white mt-4 ml-20 p-1 md:px-8 p-4 bg-black"
+          onClick={() => {
+            location.href = "/about";
+          }}
+        >
+          Read More
+        </button>
+      </div>
       <div className="bg-purple-gradient text-white font-bold md:p-16 p-8">
         <h1 className="md:text-4xl md:max-w-5xl">
           "INNOVATION FOR THE PEOPLE AND BY THE PEOPLE IS THE REACTION OF OUR
@@ -30,22 +48,8 @@ export default function Intro() {
             - NARENDRA MODI, HON’BLE PRIME MINISTER OF INDIA.
           </p>
         </h1>
-        <p className="pt-16 md:max-w-5xl">
-          Chennai Centre of IETE is committed to attain commanding heights and
-          achieve the status of “Centre of Excellence” in Technical, Engineering
-          & Management education by harnessing the best practices in educational
-          innovation and through its concerted endeavors like quality teaching,
-          industrial consultancy and training to the aspirants including
-          corporate training.
-        </p>
-        <button
-          className="rounded-sm bg-white text-black mt-4 p-1"
-          onClick={() => {
-            location.href = "/about";
-          }}
-        >
-          Read More
-        </button>
+
+
       </div>
     </>
   );
