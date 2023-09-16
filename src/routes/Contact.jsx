@@ -4,6 +4,7 @@ export default function Contact() {
   return (
     <>
       <Navbar />
+      <div className="bg-lightcolor">
       <div className="md:flex md:mx-10 mx-4 py-14 justify-between">
         <div className="pb-4">
           <h1 className="font-bold text-5xl">Contact us for more</h1>
@@ -45,6 +46,7 @@ export default function Contact() {
             Road,Gopalapuram,Chennai, Tamil Nadu 600086
           </p>
         </div>
+      </div>
       </div>
       <Footer />
     </>
