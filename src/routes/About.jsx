@@ -4,7 +4,8 @@ export default function About() {
   return (
     <>
       <Navbar />
-      <div className="text-center font-bold md:mx-14 mx-4 pb-10">
+      <div className="bg-lightcolor">
+      <div className="bg-lightcolor text-center font-bold md:mx-14 mx-4 pb-10">
         <h1 className="md:text-5xl text-3xl py-6">IETE</h1>
         <p className=" font-semibold  md:text-base">
           Founded in 1953, the Institution of Electronics and Telecommunication
@@ -70,7 +71,7 @@ export default function About() {
           </li>
         </ul>
       </div>
-      <div className="bg-purple-gradient text-white flex justify-center text-center md:text-6xl text-xl md:gap-28 gap-2 mx-1 md:mx-36 md:p-8 p-2 rounded-lg">
+      <div className="sm:flex sm:text-3xl sm:gap-4 bg-purple-gradient text-white flex justify-center text-center md:text-5xl text-xl md:gap-28 gap-2 mx-1 md:mx-36 md:p-8 p-2 rounded-lg">
         <h3>
           1300 <br />
           STUDENTS
@@ -191,6 +192,7 @@ export default function About() {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>

@@ -5,7 +5,7 @@ export default function Executive() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="bg-lightcolor">
         <h1 className="text-5xl font-bold text-center py-16">
           COMMITEE MEMBERS
         </h1>

@@ -1,41 +1,65 @@
 import logo from "../assets/ietec-logo.png";
+import { useState } from "react";
+import menu from "../assets/menu.png"
 export default function Navbar() {
+  const [isToggled, setIsToggled] = useState(true);
+  const handleToggleClick = () => {
+    setIsToggled(!isToggled);
+  };
   return (
     <nav className="w-full flex  items-center font-bold">
-      <div className="flex w-full justify-between items-center">
-        <div className="flex">
-          <img
-            src={logo}
-            alt="ietec-logo"
-            className="md:w-20 md:h-20 w-14 h-14 m-2"
-          />
-          <p className="text-xs mt-2 md:mt-6">
-            The Institution Of Electronics and <br />
-            Telecommunication Engineers, <br />
-            Chennai
-          </p>
+      <div className="flex w-full justify-between md:items-center items-center sm:items-start md:flex-row sm:flex-col">
+        <div className="flex w-full justify-between">
+          <div className="flex">
+            <img
+              src={logo}
+              alt="ietec-logo"
+              className="md:w-20 md:h-20 w-14 h-14 m-2"
+            />
+            <p className="text-xs mt-2 md:mt-6">
+              The Institution Of Electronics and <br />
+              Telecommunication Engineers, <br />
+              Chennai
+            </p>
+          </div>
+
+          <div className="md:hidden sm:block">
+            <img onClick={handleToggleClick} src={menu} className="md:w-20 md:h-20 w-14 h-14 m-2"></img>
+          </div>
         </div>
-
-        <li className="pl-4 list-none">
-          <a className="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/">Home</a>
-        </li>
-        <li className="pl-4 list-none">
-          <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/about">About</a>
-        </li>
-        <li className="pl-4 list-none">
-          <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/executive">Executive</a>
-        </li>
-        <li className="pl-4 list-none">
-          <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/events">Events</a>
-        </li>
-        <li className="pl-4 list-none">
-          <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/membership">Membership</a>
-        </li>
-        <li className="pl-4 list-none">
-          <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/contact">Contact</a>
-        </li>
-
-        <div className="w-10"></div>
+        <ul className="flex items-center text-xl md:gap-8 md:flex-row  sm:flex-col sm:items-start" >
+          <div className={`${isToggled ? 'block' : 'hidden'}`}>
+            <li className="pl-4 list-none sm:my-2">
+              <a className="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/">Home</a>
+            </li>
+          </div>
+          <div className={`${isToggled ? 'block' : 'hidden'}`}>
+            <li className="pl-4 list-none sm:my-2">
+              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/about">About</a>
+            </li>
+          </div>
+          <div className={`${isToggled ? 'block' : 'hidden'}`}>
+            <li className="pl-4 list-none sm:my-2">
+              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/executive">Executive</a>
+            </li>
+          </div>
+          <div className={`${isToggled ? 'block' : 'hidden'}`}>
+            <li className="pl-4 list-none sm:my-2">
+              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/events">Events</a>
+            </li>
+          </div>
+          <div className={`${isToggled ? 'block' : 'hidden'}`}>
+            <li className="pl-4 list-none sm:my-2">
+              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/membership">Membership</a>
+            </li>
+          </div>
+          <div className={`${isToggled ? 'block' : 'hidden'}`}>
+            <li className="pl-4 list-none sm:my-2 pr-8">
+              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/contact">Contact</a>
+            </li>
+          </div>
+        </ul>
+        {/* <div className="w-10"><button>Chan</button></div> */}
       </div>
 
     </nav>

@@ -4,7 +4,8 @@ export default function Events() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="bg-lightcolor pt-4 pb-4">
+      <div className="bg-lightcolor">
         <div className="border-4 rounded-lg border-violet-500  m-16 text-center">
           <h2 className="font-bold text-2xl">
             Webinar on IoT Security(WISE-2022)
@@ -72,6 +73,7 @@ export default function Events() {
             participants after attending all the sessions.
           </p>
         </div>
+      </div>
       </div>
       <Footer />
     </>
