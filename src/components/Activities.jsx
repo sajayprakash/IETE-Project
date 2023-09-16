@@ -1,9 +1,13 @@
+import news1 from "../assets/news1.png"
+import news2 from "../assets/news2.png"
+import news3 from "../assets/news3.png"
+
 export default function Activities() {
   return (
     <>
       <div className="md:p-16 md:pb-4 bg-lightcolor">
         <h1 className="sm:ml-8 md:text-5xl text-3xl pb-8 pt-2 text-gray-700 font-bold md:pb-10">
-          Recent Activities
+          <center>Recent Activities</center>
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
           <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
@@ -103,64 +107,25 @@ export default function Activities() {
 
       <div className="md:p-16 bg-lightcolor">
         <h1 className="sm:ml-8 md:text-5xl text-3xl pb-8 text-gray-700 font-bold md:pb-10">
-          News title
+          <center>News Letters</center>
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
           <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
             <div className="inline-block px-3">
-              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
-                  EVENT IMAGE
-                </h2>
-                <h2 className="md:text-lg pb-8 font-bold">
-                  PROFESSIONAL RESUME WRITING
-                </h2>
-                <h3 className="font-bold pb-2">
-                  27th October, 2020 (Saturday)
-                </h3>
-                <p className="text-gray-600 font-medium pb-16 m-4">
-                  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)
-                  gave a guidance session on RESUME building in a Professional
-                  manner
-                </p>
+              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_1.pdf"><img src={news1}></img></a>
               </div>
             </div>
-         
+
             <div className="inline-block px-3">
-              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
-                  EVENT IMAGE
-                </h2>
-                <h2 className="md:text-lg pb-8 font-bold">
-                  PROFESSIONAL RESUME WRITING
-                </h2>
-                <h3 className="font-bold pb-2">
-                  27th October, 2020 (Saturday)
-                </h3>
-                <p className="text-gray-600 font-medium pb-16 m-4">
-                  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)
-                  gave a guidance session on RESUME building in a Professional
-                  manner
-                </p>
+              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_2.pdf"><img src={news2}></img></a>
               </div>
             </div>
-           
+
             <div className="inline-block px-3">
-              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
-                  EVENT IMAGE
-                </h2>
-                <h2 className="md:text-lg pb-8 font-bold">
-                  PROFESSIONAL RESUME WRITING
-                </h2>
-                <h3 className="font-bold pb-2">
-                  27th October, 2020 (Saturday)
-                </h3>
-                <p className="text-gray-600 font-medium pb-16 m-4">
-                  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)
-                  gave a guidance session on RESUME building in a Professional
-                  manner
-                </p>
+              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_3.pdf"><img src={news3}></img></a>
               </div>
             </div>
           </div>

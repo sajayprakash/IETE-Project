@@ -23,7 +23,7 @@ export default function Intro() {
         </div>
       </div>
       <div className="bg-lightcolor">
-        <h2 className="sm:text-sm sm:mr-10 pt-10 text-xl pb-8 ml-20 bg-lightcolor">  {/*md:max-w-7xl */}
+        <h2 className="sm:text-sm sm:mr-10 pt-10 text-xl pb-8 pl-20 bg-lightcolor">  {/*md:max-w-7xl */}
           Chennai Centre of IETE is committed to attain commanding heights and
           achieve the status of “Centre of Excellence” in Technical, Engineering
           & Management education by harnessing the best practices in educational
