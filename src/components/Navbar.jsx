@@ -8,7 +8,7 @@ export default function Navbar() {
   };
   return (
     <nav className="w-full flex  items-center font-bold">
-      <div className="flex w-full justify-between md:items-center items-center sm:items-start md:flex-row sm:flex-col">
+      <div className="flex w-full flex-col  justify-between md:items-center items-start sm:items-start md:flex-row sm:flex-col">
         <div className="flex w-full justify-between">
           <div className="flex">
             <img
@@ -27,34 +27,34 @@ export default function Navbar() {
             <img onClick={handleToggleClick} src={menu} className="md:w-20 md:h-20 w-14 h-14 m-2"></img>
           </div>
         </div>
-        <ul className="flex items-center text-xl md:gap-8 md:flex-row  sm:flex-col sm:items-start" >
+        <ul className="flex items-start flex-col text-xl md:gap-8 md:flex-row  sm:flex-col sm:items-start" >
           <div className={`${isToggled ? 'block' : 'hidden'}`}>
-            <li className="pl-4 list-none sm:my-2">
+            <li className="pl-4 list-none  my-2 sm:my-2">
               <a className="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/">Home</a>
             </li>
           </div>
           <div className={`${isToggled ? 'block' : 'hidden'}`}>
-            <li className="pl-4 list-none sm:my-2">
+            <li className="pl-4 list-none my-2 sm:my-2">
               <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/about">About</a>
             </li>
           </div>
           <div className={`${isToggled ? 'block' : 'hidden'}`}>
-            <li className="pl-4 list-none sm:my-2">
+            <li className="pl-4 list-none my-2 sm:my-2">
               <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/executive">Executive</a>
             </li>
           </div>
           <div className={`${isToggled ? 'block' : 'hidden'}`}>
-            <li className="pl-4 list-none sm:my-2">
+            <li className="pl-4 list-none my-2 sm:my-2">
               <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/events">Events</a>
             </li>
           </div>
           <div className={`${isToggled ? 'block' : 'hidden'}`}>
-            <li className="pl-4 list-none sm:my-2">
+            <li className="pl-4 list-none my-2 sm:my-2">
               <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/membership">Membership</a>
             </li>
           </div>
           <div className={`${isToggled ? 'block' : 'hidden'}`}>
-            <li className="pl-4 list-none sm:my-2 pr-8">
+            <li className="pl-4 list-none my-2 sm:my-2 pr-8">
               <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/contact">Contact</a>
             </li>
           </div>
