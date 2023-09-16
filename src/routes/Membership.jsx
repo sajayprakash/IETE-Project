@@ -5,6 +5,7 @@ export default function Membership() {
   return (
     <>
       <Navbar />
+      <div className="bg-lightcolor pt-4 pb-4">
       <div className="text-center font-bold mt-10">
         <h1 className="md:text-5xl md:pb-8">WHY JOIN US?</h1>
         <p className="m-10">
@@ -74,6 +75,7 @@ export default function Membership() {
             <a href="">DIPIETE</a>
           </li>
         </ol>
+      </div>
       </div>
       <Footer />
     </>
