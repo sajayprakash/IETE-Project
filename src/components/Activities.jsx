@@ -2,7 +2,7 @@ export default function Activities() {
   return (
     <>
       <div className="md:p-16 bg-gray-200">
-        <h1 className="md:text-5xl text-3xl pb-8 text-gray-700 font-bold md:pb-10">
+        <h1 className="sm:ml-8 md:text-5xl text-3xl pb-8 pt-2 text-gray-700 font-bold md:pb-10">
           Recent Activities
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">

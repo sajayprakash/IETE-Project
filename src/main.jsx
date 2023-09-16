@@ -25,10 +25,7 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
+ 
   {
     path: "/executive",
     element: <Executive />,
@@ -37,7 +34,12 @@ const router = createBrowserRouter([
     path: "/events",
     element: <Events />,
   },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
 ]);
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
