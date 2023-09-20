@@ -15,3 +15,8 @@
 .bg-lightcolor{
   background-color: #D3F5FE;
 }
+
+
+*{
+  scroll-behavior: smooth;
+}
