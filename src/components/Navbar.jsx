@@ -39,8 +39,8 @@ export default function Navbar() {
             </li>
           </div>
           <div className={`${isToggled ? 'block md:block' : 'hidden md:block'}`}>
-            <li className="pl-4 list-none my-2 sm:my-2">
-              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/executive">Executive</a>
+            <li className="pl-4 list-none my-2 w-56 sm:my-2">
+              <a class="hover:text-blue-700 hover:transition-colors hover:duration-200" href="/executive">Executive Committee</a>
             </li>
           </div>
           <div className={`${isToggled ? 'block md:block' : 'hidden md:block'}`}>

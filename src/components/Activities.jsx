@@ -13,12 +13,11 @@ export default function Activities() {
     { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
     { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" }
   ]
-
+  // "/src/assets/Executive_comitttee/arun.jpeg"
   return (
     <>
-{/* sm:mx-auto sm:max-w-lg */}
       <>
-       <div class=" pt-12 bg-lightcolor relative flex flex-row md:pr-16 pr-4  justify-end overflow-hidden">
+        <div class=" pt-12 bg-lightcolor relative flex flex-row md:pr-16 pr-4  justify-end overflow-hidden">
           <div class="relative rounded-3xl bg-white  ring-1 ring-gray-900/5 ">
             <div>
               <form action="" class="relative">
@@ -31,8 +30,10 @@ export default function Activities() {
             </div>
           </div>
         </div>
-        
+
       </>
+
+
 
       <div id='activities' className="md:p-16 md:pt-4 md:pb-4 bg-lightcolor">
         <h1 className="sm:ml-8 md:text-5xl text-3xl pb-8 pt-2 text-gray-700 font-bold md:pb-10">
@@ -51,9 +52,7 @@ export default function Activities() {
                 return <>
                   <div className="inline-block px-3">
                     <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                      <h2 className="bg-black rounded-lg text-white md:pt-24 pt-16 m-7 pb-28">
-                        EVENT IMAGE
-                      </h2>
+                      <img className="w-80 h-70 py-8" src={item.image} />
                       <h2 className="md:text-lg pb-8 font-bold">
                         {item.title}
                       </h2>

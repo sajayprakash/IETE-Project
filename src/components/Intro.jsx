@@ -12,7 +12,7 @@ export default function Intro() {
           <h2 className="md:text-3xl sm:pb-9 md:pb-9 text-xl text-center pb-4 font-bold">
             Upcoming Events &amp; Updates
           </h2>
-          <div className="bg-purple-gradient rounded-md p-4 sm:p-8 sm:flex sm:flex-col m-auto sm:m-auto md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white">
+          <div className="bg-purple-gradient rounded-md p-4 sm:p-8 sm:flex sm:flex-row m-auto sm:m-auto md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white">
             <p className="md:text-2xl font-bold text-center">30 MAY</p>
             <div className="md:pl-6 md:text-xl text-center">
               <p className="font-bold ">WEBINAR ON IOT SECURITY</p>
@@ -34,12 +34,12 @@ export default function Intro() {
           corporate training.
         </h2>
         <button
-          className="sm:mt-0 sm:p-3 rounded-lg mb-5 text-white ml-14 p-1 md:px-8 p-4 bg-black"
+          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white ml-14 p-1 md:px-8 p-4 bg-black"
           onClick={() => {
             location.href = "/about";
           }}
         >
-          Read More
+          Read More  ->
         </button>
       </div>
       <div className="bg-purple-gradient text-white font-bold  flex justify-between">
