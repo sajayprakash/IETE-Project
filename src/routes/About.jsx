@@ -1,5 +1,7 @@
 import { Navbar, Footer } from "../components";
 import play from '../assets/play.png'
+import vision from '../assets/vision.webp'
+import motive from '../assets/motive.png'
 
 export default function About() {
   return (
@@ -73,33 +75,33 @@ export default function About() {
             </li>
           </ul> */}
 
-          <div className="flex flex-row justify-center gap-8">
-            <div className="rounded-3xl bg-white w-86 flex flex-col items-start p-4">
+          <div className="flex md:flex-row flex-col items-center md:justify-center gap-8">
+            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <div className="h-40"></div>
-              <div className="rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
+              <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                 <button className="">Vision</button>
                 <img className="w-6 h-6" src={play}></img>
               </div>
-              <p className="uppercase text-xs w-80 pb-4 text-left">Reaching the un-reached and empowering the youth through Technical
+              <p className="text-white uppercase text-xs w-80 h-20 pb-4 text-left">Reaching the un-reached and empowering the youth through Technical
                 Education and Skill Development.</p>
             </div>
-            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4">
+            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <div className="h-40"></div>
-              <div className="rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
+              <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                 <button className="">Mission</button>
                 <img className="w-6 h-6" src={play}></img>
               </div>
-              <p className="uppercase text-xs w-80 pb-4 text-left">Advancement of Electronics, Telecommunication, Information
+              <p className="text-white uppercase text-xs h-20 w-80 pb-4 text-left">Advancement of Electronics, Telecommunication, Information
                 Technology & other related disciplines to contribute in Nation’s
                 Human Resource & Infrastructure Development through our Engineers</p>
             </div>
-            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4">
+            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/motive.png)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <div className="h-40"></div>
-              <div className="rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
+              <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                 <button className="">Motives</button>
                 <img className="w-6 h-6" src={play}></img>
               </div>
-              <p className="uppercase text-xs w-80 pb-4 text-left">IETE is helping it's students to learn and grow in the emerging
+              <p className="text-white uppercase h-20 text-xs w-80 pb-4 text-left">IETE is helping it's students to learn and grow in the emerging
                 field of Electronics and Telecommunication. One of the missions of
                 IETE is to provide the best mode of studying a Btech degree
                 programme.</p>
@@ -109,7 +111,7 @@ export default function About() {
 
         </div>
         <div className="sm:flex sm:text-3xl sm:gap-4  flex justify-center text-center md:text-5xl text-xl md:gap-4 gap-2 mx-1 md:mx-36  ">
-          <div className="bg-purple-gradient text-white rounded-3xl md:p-8 p-2 w-80">
+          <div className="bg-purple-gradient text-white rounded-3xl md:p-8 p-3 w-80">
             <h3 className="font-bold">
               12060 <br />
               <h2 className=" text-xl"> STUDENTS</h2>

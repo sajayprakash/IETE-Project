@@ -8,7 +8,7 @@ export default function Intro() {
           Learning Today, <br />
           Leading Tomorrow
         </h1>
-        <div className="md:pt-32 md:pl-20 pt-16">
+        <div className="md:pt-32 md:pl-20 md:mt-10 pt-16">
           <h2 className="md:text-3xl sm:pb-9 md:pb-9 text-xl text-center pb-4 font-bold">
             Upcoming Events &amp; Updates
           </h2>
@@ -39,7 +39,7 @@ export default function Intro() {
             location.href = "/about";
           }}
         >
-          Read More  ->
+          Read More  -&gt;
         </button>
       </div>
       <div className="bg-purple-gradient text-white font-bold  flex justify-between">

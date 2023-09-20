@@ -4,18 +4,18 @@ export default function Contact() {
   return (
     <>
       <Navbar />
-      <div className="bg-lightcolor">
+      <div className="bg-lightcolor ">
       <div className="md:flex md:mx-10 mx-4 py-14 justify-between">
         <div className="pb-4">
-          <h1 className="font-bold text-5xl">Contact us for more</h1>
-          <p className="font-normal pt-10 text-xl pl-2">
+          <h1 className="font-bold text-5xl text-center">Contact us for more</h1>
+          <p className="font-normal pt-10 text-xl pl-2 text-center">
             Fill out this form and we will get back to you shortly!
           </p>
-          <form action="" className="flex flex-col pt-8 max-w-md">
+          <form action="" className="flex flex-col pt-8 md:mx-0 mx-12 max-w-md ">
             <input
               type="text"
               placeholder="Contact Name"
-              className="m-4 border-b-2 border-black"
+              className="m-4 border-b-2 border-black "
             />
             <input
               type="number"
