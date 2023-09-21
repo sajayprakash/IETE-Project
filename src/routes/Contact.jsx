@@ -11,7 +11,7 @@ export default function Contact() {
           <p className="font-normal pt-10 text-xl pl-2 text-center">
             Fill out this form and we will get back to you shortly!
           </p>
-          <form action="" className="flex flex-col pt-8 md:mx-0 mx-12 max-w-md ">
+          <form action="" className="flex flex-col pt-8 md:mx-0 git mx-12 max-w-md ">
             <input
               type="text"
               placeholder="Contact Name"
