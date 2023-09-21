@@ -119,7 +119,7 @@ export default function About() {
             </h3>
           </div>
           <div className="bg-purple-gradient text-white rounded-3xl md:p-8 p-2 w-80">
-            <h3 className="font-bold">
+            <h3 className="font-bold ">
               13592<br />
               <h2 className=" text-xl"> STAFFS</h2>
             </h3>
