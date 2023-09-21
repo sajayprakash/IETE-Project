@@ -12,11 +12,14 @@
   );
 }
 
-.bg-lightcolor{
-  background-color: #D3F5FE;
+.bg-lightcolor {
+  background-color: #d3f5fe;
 }
 
+.animated-container {
+  @apply justify-center my-2;
+}
 
-*{
+* {
   scroll-behavior: smooth;
 }
