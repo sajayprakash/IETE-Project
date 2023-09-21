@@ -1,4 +1,6 @@
 import modi from "../assets/modi.png"
+import { IoArrowForwardOutline } from "react-icons/io5";
+
 
 export default function Intro() {
   return (
@@ -34,12 +36,12 @@ export default function Intro() {
           corporate training.
         </h2>
         <button
-          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white ml-14 p-1 md:px-8 p-4 bg-black"
+          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white text-xl ml-14 p-1 md:px-8 p-4 bg-black"
           onClick={() => {
             location.href = "/about";
           }}
         >
-          Read More  -&gt;
+          Read More <IoArrowForwardOutline className="ml-2 inline-block mb-1"/>
         </button>
       </div>
       <div className="bg-purple-gradient text-white font-bold  flex justify-between">
