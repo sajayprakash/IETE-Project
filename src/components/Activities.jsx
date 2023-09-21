@@ -1,6 +1,6 @@
-import news1 from "../assets/news1.png"
-import news2 from "../assets/news2.png"
-import news3 from "../assets/news3.png"
+import news1 from "/assets/news1.png"
+import news2 from "/assets/news2.png"
+import news3 from "/assets/news3.png"
 import { useState } from 'react'
 
 export default function Activities() {

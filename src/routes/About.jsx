@@ -1,7 +1,7 @@
 import { Navbar, Footer } from "../components";
-import play from '../assets/play.png'
-import vision from '../assets/vision.webp'
-import motive from '../assets/motive.png'
+import play from '/assets/play.png'
+import vision from '/assets/vision.webp'
+import motive from '/assets/motive.png'
 
 export default function About() {
   return (
@@ -49,7 +49,7 @@ export default function About() {
           <h1 className="md:text-5xl text-3xl py-6">GOALS</h1>
 
           <div className="flex md:flex-row flex-col items-center md:justify-center gap-8">
-            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <div className="h-40"></div>
               <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                 <button className="">Vision</button>
@@ -58,7 +58,7 @@ export default function About() {
               <p className="text-white uppercase text-xs w-80 h-20 pb-4 text-left">Reaching the un-reached and empowering the youth through Technical
                 Education and Skill Development.</p>
             </div>
-            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <div className="h-40"></div>
               <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                 <button className="">Mission</button>
@@ -68,7 +68,7 @@ export default function About() {
                 Technology & other related disciplines to contribute in Nation’s
                 Human Resource & Infrastructure Development through our Engineers</p>
             </div>
-            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/motive.png)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
+            <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/assets/motive.png)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
               <div className="h-40"></div>
               <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                 <button className="">Motives</button>

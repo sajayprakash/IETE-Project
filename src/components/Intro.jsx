@@ -1,4 +1,4 @@
-import modi from "../assets/modi.png"
+import modi from "/assets/modi.png"
 import { IoArrowForwardOutline } from "react-icons/io5";
 
 

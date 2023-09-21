@@ -1,6 +1,6 @@
-import logo from "../assets/ietec-logo.png";
+import logo from "/assets/ietec-logo.png";
 import { useState } from "react";
-import menu from "../assets/menu.png"
+import menu from "/assets/menu.png"
 export default function Navbar() {
   const [isToggled, setIsToggled] = useState(false);
   const handleToggleClick = () => {
