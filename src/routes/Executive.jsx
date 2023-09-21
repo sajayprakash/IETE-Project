@@ -4,14 +4,14 @@ import { FaLinkedin } from "react-icons/fa6";
 export default function Executive() {
 
   const data = [
-    { "image": "/src/assets/Executive_comitttee/Venkateswaran.jpg", "name": "Dr.N.Venkateswaran", "role": "Chairman", "mail": "venkateswaran.iete@gmail.com", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/tata.jpeg", "name": "Dr. Tata Sudhakar", "role": "Immd Post Chairman", "mail": "tatasudhakar@gmail.com", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/jeya.jpg", "name": "Mrs T J Jeyaprabha", "role": "Honarary Treasurer", "mail": "jprabha@svce.ac.in", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/vj.jpg", "name": "Mr D Vijendrababu", "role": "EC Member", "mail": "dvijendrababu@gmail.com", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/arun.jpeg", "name": "Shri S Arun Kumar", "role": "EC Member", "mail": "arunsundar.s@cvrde.drdo.in", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/vaishali.jpg", "name": "Dr Vaishali D", "role": "Co-opted Member", "mail": "vaishali.b@vdp.srmuniv.ac.in", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/Mrarun.jpeg", "name": "Mr Arun", "role": "Co-opted Member", "mail": "snatarajan1967@gmail.com", "link": "" },
-    { "image": "/src/assets/Executive_comitttee/sumathi.jpeg", "name": "Dr. K. Sumathi", "role": "Co-opted Member", "mail": "sumathi.ece@sairam.edu.in", "link": "" },
+    { "image": "../assets/Executive_comitttee/Venkateswaran.jpg", "name": "Dr.N.Venkateswaran", "role": "Chairman", "mail": "venkateswaran.iete@gmail.com", "link": "" },
+    { "image": "../assets/Executive_comitttee/tata.jpeg", "name": "Dr. Tata Sudhakar", "role": "Immd Post Chairman", "mail": "tatasudhakar@gmail.com", "link": "" },
+    { "image": "../assets/Executive_comitttee/jeya.jpg", "name": "Mrs T J Jeyaprabha", "role": "Honarary Treasurer", "mail": "jprabha@svce.ac.in", "link": "" },
+    { "image": "../assets/Executive_comitttee/vj.jpg", "name": "Mr D Vijendrababu", "role": "EC Member", "mail": "dvijendrababu@gmail.com", "link": "" },
+    { "image": "../assets/Executive_comitttee/arun.jpeg", "name": "Shri S Arun Kumar", "role": "EC Member", "mail": "arunsundar.s@cvrde.drdo.in", "link": "" },
+    { "image": "../assets/Executive_comitttee/vaishali.jpg", "name": "Dr Vaishali D", "role": "Co-opted Member", "mail": "vaishali.b@vdp.srmuniv.ac.in", "link": "" },
+    { "image": "../assets/Executive_comitttee/Mrarun.jpeg", "name": "Mr Arun", "role": "Co-opted Member", "mail": "snatarajan1967@gmail.com", "link": "" },
+    { "image": "../assets/Executive_comitttee/sumathi.jpeg", "name": "Dr. K. Sumathi", "role": "Co-opted Member", "mail": "sumathi.ece@sairam.edu.in", "link": "" },
   ]
 
   return (
