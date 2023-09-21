@@ -6,6 +6,27 @@ import { useState } from 'react'
 export default function Activities() {
 
   const [search, setSearch] = useState("")
+  const [hover, setHover] = useState(false)
+  const [hover2, setHover2] = useState(false)
+  const [hover3, setHover3] = useState(false)
+  const settrue = () => {
+    setHover(true);
+  };
+  const setfalse = () => {
+    setHover(false);
+  };
+  const settrue2 = () => {
+    setHover2(true);
+  };
+  const setfalse2 = () => {
+    setHover2(false);
+  };
+  const settrue3 = () => {
+    setHover3(true);
+  };
+  const setfalse3 = () => {
+    setHover3(false);
+  };
   const data = [
     { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
     { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
@@ -13,7 +34,7 @@ export default function Activities() {
     { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
     { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" }
   ]
- 
+
   return (
     <>
       <>
@@ -78,20 +99,23 @@ export default function Activities() {
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
           <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
             <div className="inline-block px-3">
-              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+              <div onMouseEnter={settrue} onMouseLeave={setfalse} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center" >
                 <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_1.pdf"><img src={news1}></img></a>
+                <h1 className={`absolute font-semibold text-lg top-1.5 left-32 ${hover ? "" : "hidden"}`}>Click Me !</h1>
               </div>
             </div>
 
             <div className="inline-block px-3">
-              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+              <div onMouseEnter={settrue2} onMouseLeave={setfalse2} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
                 <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_2.pdf"><img src={news2}></img></a>
+                <h1 className={`absolute font-semibold text-lg top-1.5 left-32 ${hover2 ? "" : "hidden"}`}>Click Me !</h1>
               </div>
             </div>
 
             <div className="inline-block px-3">
-              <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+              <div onMouseEnter={settrue3} onMouseLeave={setfalse3} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
                 <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_3.pdf"><img src={news3}></img></a>
+                <h1 className={`absolute font-semibold text-lg top-1.5 left-32 ${hover3 ? "" : "hidden"}`}>Click Me !</h1>
               </div>
             </div>
           </div>
