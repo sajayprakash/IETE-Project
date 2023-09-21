@@ -1,5 +1,4 @@
 import { Footer, Navbar } from "../components";
-import Map from "/assets/map.png";
 export default function Contact() {
   return (
     <>
