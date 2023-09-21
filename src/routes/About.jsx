@@ -47,33 +47,6 @@ export default function About() {
             higher degree of employability for today and tomorrow
           </p>
           <h1 className="md:text-5xl text-3xl py-6">GOALS</h1>
-          {/* <ul className="text-left">
-            <li className="py-2">
-              Vision:{" "}
-              <br></br>
-              <p className="font-normal inline-block">
-                Reaching the un-reached and empowering the youth through Technical
-                Education and Skill Development.
-              </p>
-            </li>
-            <li className="py-2">
-              Mission:{" "}
-              <p className="font-normal inline-block">
-                Advancement of Electronics, Telecommunication, Information
-                Technology & other related disciplines to contribute in Nation’s
-                Human Resource & Infrastructure Development through our Engineers
-              </p>
-            </li>
-            <li className="py-2">
-              Motives:{" "}
-              <p className="font-normal inline-block">
-                IETE is helping it's students to learn and grow in the emerging
-                field of Electronics and Telecommunication. One of the missions of
-                IETE is to provide the best mode of studying a Btech degree
-                programme.
-              </p>
-            </li>
-          </ul> */}
 
           <div className="flex md:flex-row flex-col items-center md:justify-center gap-8">
             <div className="rounded-3xl bg-white w-96 flex flex-col items-start p-4" style={{backgroundImage:'url(/src/assets/vision.webp)',backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "rgba(0, 0, 0, 0.5)"}}>
