@@ -19,22 +19,22 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Contact Name"
-                className="m-4 border-b-2 border-black "
+                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100"
               />
               <input
                 type="number"
                 placeholder="Contact Phone"
-                className="m-4 border-b-2 border-black"
+                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="m-4 border-b-2 border-black"
+                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100"
               />
               <input
                 type="text"
                 placeholder="Let's talk about your idea"
-                className="m-4 mb-8 border-b-2 border-black "
+                className="m-4 mb-8 border-b-2 border-black bg-transparent placeholder-grey-100 "
               />
               <input
                 type="submit"
