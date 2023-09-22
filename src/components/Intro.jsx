@@ -42,10 +42,11 @@ export default function Intro() {
           corporate training.
         </h2>
         <button
-          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white text-xl ml-14  md:px-8 p-4 bg-black"
+          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white text-xl ml-14  md:px-8 p-4 bg-black hover:scale-105 transition-all"
           onClick={() => {
             location.href = "/about";
           }}
+          
         >
           Read More <IoArrowForwardOutline className="ml-2 inline-block mb-1" />
         </button>
