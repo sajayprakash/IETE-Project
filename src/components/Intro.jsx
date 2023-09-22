@@ -14,7 +14,7 @@ export default function Intro() {
             Upcoming Events &amp; Updates
           </h2>
           <button
-            className="bg-purple-gradient rounded-md p-4 sm:p-8 sm:flex sm:flex-row sm:m-auto md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white"
+            className="bg-purple-gradient hover:scale-105 transition-all rounded-md p-4 sm:p-8 sm:flex sm:flex-row sm:m-auto md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white"
             onClick={() => {
               location.href = "/events";
             }}
