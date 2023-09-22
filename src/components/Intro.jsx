@@ -13,7 +13,12 @@ export default function Intro() {
           <h2 className="md:text-3xl sm:pb-9 md:pb-9 text-xl text-center pb-4 font-bold">
             Upcoming Events &amp; Updates
           </h2>
-          <div className="bg-purple-gradient rounded-md p-4 sm:p-8 sm:flex sm:flex-row sm:m-auto md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white">
+          <button
+            className="bg-purple-gradient rounded-md p-4 sm:p-8 sm:flex sm:flex-row sm:m-auto md:max-w-md md:flex md:p-6 max-w-sm m-4 text-white"
+            onClick={() => {
+              location.href = "/events";
+            }}
+          >
             <p className="md:text-2xl font-bold text-center">30 MAY</p>
             <div className="md:pl-6 md:text-xl text-center">
               <p className="font-bold ">WEBINAR ON IOT SECURITY</p>
@@ -22,7 +27,7 @@ export default function Intro() {
                 COLLABORATION WITH ISEA
               </p>
             </div>
-          </div>
+          </button>
         </div>
       </div>
       <div className="bg-lightcolor">
