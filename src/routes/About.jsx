@@ -67,7 +67,7 @@ export default function About() {
                   <img className="w-6 h-6" src={play}></img>
                 </div>
               </button>
-              <p className="text-white uppercase text-xs w-80 h-20 pb-4 text-left">
+              <p className="text-white uppercase text-xs w-80 h-20 pb-4 text-left tracking-wide">
                 Reaching the un-reached and empowering the youth through
                 Technical Education and Skill Development.
               </p>
@@ -88,7 +88,7 @@ export default function About() {
                   <img className="w-6 h-6" src={play} ></img>
                 </div>
               </button>
-              <p className="text-white uppercase text-xs h-20 w-80 pb-4 text-left">
+              <p className="text-white uppercase text-xs h-20 w-80 pb-4 text-left tracking-wide">
                 Advancement of Electronics, Telecommunication, Information
                 Technology & other related disciplines to contribute in Nation’s
                 Human Resource & Infrastructure Development through our
@@ -111,7 +111,7 @@ export default function About() {
                   <img className="w-6 h-6" src={play}></img>
                 </div>
               </button>
-              <p className="text-white uppercase h-20 text-xs w-80 pb-4 text-left">
+              <p className="text-white uppercase h-20 text-xs w-80 pb-4 text-left tracking-wide">
                 IETE is helping it's students to learn and grow in the emerging
                 field of Electronics and Telecommunication. One of the missions
                 of IETE is to provide the best mode of studying a Btech degree

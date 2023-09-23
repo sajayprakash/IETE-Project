@@ -45,11 +45,11 @@ export default function Activities() {
   };
 
   const data = [
-    { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
-    { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
-    { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
-    { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
-    { "image": "", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" }
+    { "image": "assets/Recent_Activities/RecentActivities.png", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
+    { "image": "assets/Recent_Activities/RecentActivities (2).png", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
+    { "image": "assets/Recent_Activities/RecentActivities (3).png", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
+    { "image": "assets/Recent_Activities/RecentActivities (4).png", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" },
+    { "image": "assets/Recent_Activities/RecentActivities (2).png", "title": "PROFESSIONAL RESUME WRITING", "date": "27th October, 2020 (Saturday)", "desc": "  Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer)gave a guidance session on RESUME building in a Professional manner" }
   ]
 
   return (
@@ -88,16 +88,16 @@ export default function Activities() {
               .map((item) => {
 
                 return <>
-                  <div className="inline-block px-3">
-                    <div className="w-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
-                      <img className="w-80 h-70 py-8" src={item.image} />
-                      <h2 className="md:text-lg pb-8 font-bold">
+                  <div className="inline-block px-3  ">
+                    <div className="w-80 max-w-xs hover:p-2 transition-all overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+                      <img className="w-80 h-70 p-4 " src={item.image} />
+                      <h2 className="md:text-lg pb-4 font-bold">
                         {item.title}
                       </h2>
                       <h3 className="font-bold pb-2">
                         {item.date}
                       </h3>
-                      <p className="text-gray-600 font-medium pb-16 m-4">
+                      <p className="text-gray-600 font-medium pb-4 m-4">
                         {item.desc}
                       </p>
                     </div>
@@ -115,23 +115,23 @@ export default function Activities() {
         </h1>
         <div className="flex pb-10 md:overflow-hidden overflow-x-scroll hide-scroll-bar">
           <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
-            <div className="inline-block px-3">
-              <div onMouseEnter={settrue} onMouseLeave={setfalse} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center" >
-                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_1.pdf"><img className={`transition-all duration-300 ease-out ${blur ? "md:blur-sm" : ""}`} src={news1}></img>
+            <div className="inline-block px-3 ">
+              <div onMouseEnter={settrue} onMouseLeave={setfalse} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-shadow duration-300 ease-in-out text-center" >
+                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_1.pdf"><img className={` transition-all duration-300 ${blur ? "md:blur-sm" : ""}`} src={news1}></img>
                   <h1 className={`absolute font-semibold text-lg top-1.5 left-32 ${hover ? "" : "hidden"}`}>Click Me !</h1></a>
               </div>
             </div>
 
             <div className="inline-block px-3">
-              <div onMouseEnter={settrue2} onMouseLeave={setfalse2} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
-                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_2.pdf"><img className={`transition-all duration-300 ease-out ${blur2 ? "md:blur-sm" : ""}`} src={news2}></img>
+              <div onMouseEnter={settrue2} onMouseLeave={setfalse2} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_2.pdf"><img className={` transition-all duration-300 ${blur2 ? "md:blur-sm" : ""}`} src={news2}></img>
                   <h1 className={`absolute font-semibold text-lg top-1.5 left-32 ${hover2 ? "" : "hidden"}`}>Click Me !</h1></a>
               </div>
             </div>
 
             <div className="inline-block px-3">
-              <div onMouseEnter={settrue3} onMouseLeave={setfalse3} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-black hover:border-4 transition-shadow duration-300 ease-in-out text-center">
-                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_3.pdf"><img className={`transition-all duration-300 ease-out ${blur3 ? "md:blur-sm" : ""}`} src={news3}></img>
+              <div onMouseEnter={settrue3} onMouseLeave={setfalse3} className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-shadow duration-300 ease-in-out text-center">
+                <a target="_blank" href="http://ietechennai.in/assets/pdf/chenlink1_3.pdf"><img className={` transition-all duration-300 ${blur3 ? "md:blur-sm" : ""}`} src={news3}></img>
                   <h1 className={`absolute font-semibold text-lg top-1.5 left-32 ${hover3 ? "" : "hidden"}`}>Click Me !</h1></a>
               </div>
             </div>
