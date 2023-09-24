@@ -15,26 +15,33 @@ export default function Contact() {
             <form
               action=""
               className="flex flex-col pt-8 md:mx-0 git mx-12 max-w-md"
+              onSubmit={() => {
+                window.alert("We will get back to you shortly!");
+              }}
             >
               <input
                 type="text"
                 placeholder="Contact Name"
                 className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
+                required
               />
               <input
                 type="number"
                 placeholder="Contact Phone"
                 className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
+                required
               />
               <input
                 type="email"
                 placeholder="Email"
                 className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
+                required
               />
               <input
                 type="text"
                 placeholder="Let's talk about your idea"
                 className="m-4 mb-8 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
+                required
               />
               <input
                 type="submit"
