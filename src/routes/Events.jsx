@@ -68,6 +68,12 @@ export default function Events() {
                 but not limited to:
               </p>
             </div>
+            <div className="p-4 py-4 mx-4 text-left">
+              <h1 className="font-bold">Submission Guidelines</h1>
+              <p className="py-8 font-semibold">
+                Prospective authors are invited to submit full papers describing original, previously unpublished, complete work in four pages in A4 IEEE double column conference template, including figure, results and references. Submitted papers will be reviewed by two to three technical committee or reviewers. Accepted and registered papers of IETE CHENCON 2022 will be published in the conference proceedings. Extended versions of the accepted and presented papers will be recommended for publication in IETE Journals, SCOPUS, SCI and other indexed journals. Authors must submit the papers through their Easy chair account using the following link: https://easychair.org/conferences/?conf=ietechencon2022 or submit the papers to the Email ID: chencon2022@gmail.com
+              </p>
+            </div>
             <p className="py-4 font-semibold">
               Participation certificate will be issued to all the registered
               participants after attending all the sessions.
