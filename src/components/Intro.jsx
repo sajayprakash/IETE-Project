@@ -46,7 +46,6 @@ export default function Intro() {
           onClick={() => {
             location.href = "/about";
           }}
-          
         >
           Read More <IoArrowForwardOutline className="ml-2 inline-block mb-1" />
         </button>

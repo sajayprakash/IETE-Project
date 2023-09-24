@@ -85,7 +85,7 @@ export default function About() {
               <button className="hover:scale-105 trasition-all">
                 <div className="bg-white rounded-3xl ml-2 shadow-lg h-12 p-4 gap-2 mb-8 flex items-center">
                   <button className="">Mission</button>
-                  <img className="w-6 h-6" src={play} ></img>
+                  <img className="w-6 h-6" src={play}></img>
                 </div>
               </button>
               <p className="text-white uppercase text-xs h-20 w-80 pb-4 text-left tracking-wide">
@@ -101,7 +101,6 @@ export default function About() {
                 backgroundImage: "url(/assets/motive.png)",
                 backgroundSize: "110%",
                 backgroundPosition: "center",
-
               }}
             >
               <div className="h-40"></div>
