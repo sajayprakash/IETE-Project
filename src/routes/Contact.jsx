@@ -14,22 +14,22 @@ export default function Contact() {
             </p>
             <form
               action=""
-              className="flex flex-col pt-8 md:mx-0 git mx-12 max-w-md "
+              className="flex flex-col pt-8 md:mx-0 git mx-12 max-w-md"
             >
               <input
                 type="text"
                 placeholder="Contact Name"
-                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100"
+                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
               />
               <input
                 type="number"
                 placeholder="Contact Phone"
-                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100"
+                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100"
+                className="m-4 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
               />
               <input
                 type="text"
