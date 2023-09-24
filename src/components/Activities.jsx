@@ -154,7 +154,7 @@ export default function Activities() {
               <div
                 onMouseEnter={settrue}
                 onMouseLeave={setfalse}
-                className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-shadow duration-300 ease-in-out text-center"
+                className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-all duration-300 ease-in-out text-center"
               >
                 <a
                   target="_blank"
@@ -181,7 +181,7 @@ export default function Activities() {
               <div
                 onMouseEnter={settrue2}
                 onMouseLeave={setfalse2}
-                className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-shadow duration-300 ease-in-out text-center"
+                className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-all duration-300 ease-in-out text-center"
               >
                 <a
                   target="_blank"
@@ -208,7 +208,7 @@ export default function Activities() {
               <div
                 onMouseEnter={settrue3}
                 onMouseLeave={setfalse3}
-                className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-shadow duration-300 ease-in-out text-center"
+                className="w-80 relative max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl hover:border-x-cyan-700 hover:border-4 transition-all duration-300 ease-in-out text-center"
               >
                 <a
                   target="_blank"
