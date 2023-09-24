@@ -9,7 +9,7 @@ export default function Intro() {
           Learning Today, <br />
           Leading Tomorrow
         </h1>
-        <div className="md:pt-32 md:pl-20 md:mt-10 pt-16">
+        <div className="md:pt-32 md:pl-36 md:mt-10 pt-16">
           <h2 className="md:text-3xl sm:pb-9 md:pb-9 text-xl text-center pb-4 font-bold">
             Upcoming Events &amp; Updates
           </h2>
@@ -42,7 +42,7 @@ export default function Intro() {
           corporate training.
         </h2>
         <button
-          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white text-xl ml-14  md:px-8 p-4 bg-black hover:scale-105 transition-all"
+          className="sm:mt-0 sm:p-3 rounded-sm mb-5 text-white text-xl ml-14  md:px-8 p-4 bg-black hover:bg-gray-900 transition-all"
           onClick={() => {
             location.href = "/about";
           }}
@@ -52,7 +52,7 @@ export default function Intro() {
       </div>
       <div className="bg-purple-gradient text-white font-bold  flex justify-between">
         <div>
-          <h1 className="md:text-4xl p-8 md:p-16  md:max-w-5xl">
+          <h1 className="md:text-4xl p-8 md:p-16 md:max-w-5xl">
             "INNOVATION FOR THE PEOPLE AND BY THE PEOPLE IS THE REACTION OF OUR
             NEW INDIA"
             <p className="md:text-sm text-gray-400">

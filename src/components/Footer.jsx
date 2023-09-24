@@ -6,8 +6,9 @@ import {
 import { BsLinkedin } from "react-icons/bs";
 import { BiSolidContact } from "react-icons/bi";
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-purple-gradient text-white font-bold md:p-16 p-4">
+    <footer className="bg-purple-gradient text-white font-bold md:px-16 md:pt-16 p-4">
       <div className="md:flex md:justify-between">
         <div className="md:max-w-md">
           <h1 className="md:text-6xl text-4xl pb-8 md:text-left text-center">
@@ -35,6 +36,9 @@ export default function Footer() {
               value={"Subscribe"}
             />
           </form>
+          <h3 className="pt-6">
+            &copy; {currentYear} IETE Chennai. All Rights Reserved
+          </h3>
         </div>
         <div className="flex font-light md:text-2xl md:mr-44 pt-6 justify-between">
           <div className="md:pr-32">
