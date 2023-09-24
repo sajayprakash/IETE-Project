@@ -34,7 +34,7 @@ export default function Contact() {
               <input
                 type="text"
                 placeholder="Let's talk about your idea"
-                className="m-4 mb-8 border-b-2 border-black bg-transparent placeholder-grey-100 "
+                className="m-4 mb-8 border-b-2 border-black bg-transparent placeholder-grey-100 focus:outline-none"
               />
               <input
                 type="submit"
