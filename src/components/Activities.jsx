@@ -77,7 +77,7 @@ export default function Activities() {
         <h1 className="sm:ml-8 md:text-5xl text-3xl pb-8 pt-2 text-gray-700 font-bold md:pb-10">
           <center>Recent Activities</center>
         </h1>
-        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
+        <div className="flex overflow-x-scroll scrollbar scrollbar-thumb-sky-800 scrollbar-track-sky-200 pb-10 hide-scroll-bar">
           <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
 
             {data.filter((item) => {
@@ -88,8 +88,8 @@ export default function Activities() {
               .map((item) => {
 
                 return <>
-                  <div className="inline-block px-3  ">
-                    <div className="w-80 max-w-xs hover:p-2 transition-all overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+                  <div className="inline-block px-3 ">
+                    <div className="w-80 max-w-xs hover:p-2 transition-all overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl  duration-300 ease-in-out text-center">
                       <img className="w-80 h-70 p-4 " src={item.image} />
                       <h2 className="md:text-lg pb-4 font-bold">
                         {item.title}

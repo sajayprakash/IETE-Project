@@ -1,3 +1,6 @@
+import { IoLogoInstagram, IoLogoYoutube, IoShareSocialOutline } from "react-icons/io5";
+import { BsLinkedin } from "react-icons/bs";
+import { BiSolidContact } from "react-icons/bi";
 export default function Footer() {
   return (
     <footer className="bg-purple-gradient text-white font-bold md:p-16 p-4">
@@ -6,7 +9,7 @@ export default function Footer() {
           <h1 className="md:text-6xl text-4xl pb-8 md:text-left text-center">
             IETE CHENNAI
           </h1>
-          <p>
+          <p className="">
             IETE Chennai centre, No: 37, Conran Smith Road Entrance Peters
             Road,Gopalapuram, Chennai, Tamil Nadu 600086
           </p>
@@ -21,9 +24,9 @@ export default function Footer() {
             </button>
           </div>
         </div>
-        <div className="flex font-light md:text-3xl md:mr-32 pt-6 justify-between">
-          <div className="md:pr-16">
-            <h2 className="font-bold">Useful links</h2>
+        <div className="flex font-light md:text-2xl md:mr-44 pt-6 justify-between">
+          <div className="md:pr-32">
+            <h2 className="font-bold mb-2">Useful links</h2>
             <ul>
               <li>
                 <a href="/">Home</a>
@@ -43,26 +46,52 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="font-bold">Socials</h2>
+            <h2 className="font-bold mb-2">Socials</h2>
             <ul>
               <li>
-                <a href="">LinkedIn</a>
+                <a>
+                  <div className="flex gap-2 items-center">
+                    <BsLinkedin></BsLinkedin>
+                    LinkedIn
+                  </div>
+                </a>
               </li>
               <li>
-                <a href="">X</a>
+                <a href="">
+                  <div className="flex gap-2 items-center">
+                    <IoShareSocialOutline></IoShareSocialOutline>
+                    Social
+                  </div>
+                </a>
               </li>
               <li>
-                <a href="">YouTube</a>
+                <a href="">
+                  <div className="flex gap-2 items-center">
+                    <IoLogoYoutube></IoLogoYoutube>
+                    YouTube
+                  </div>
+                </a>
               </li>
               <li>
-                <a href="">Instagram</a>
+                <a href="">
+                  <div className="flex gap-2 items-end">
+                    <IoLogoInstagram />
+                    Instagram
+                  </div>
+                </a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="">
+                  <div className="flex gap-2 items-center">
+                    <BiSolidContact></BiSolidContact>
+                    Contact
+                  </div>
+                </a>
               </li>
             </ul>
           </div>
         </div>
+
       </div>
     </footer>
   );

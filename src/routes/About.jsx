@@ -196,7 +196,7 @@ export default function About() {
         </div>
         <div className="md:text-3xl pt-10">
           <h1 className="pb-8 text-3xl  md:mx-14 mx-4">List of Colleges</h1>
-          <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
+          <div className="flex overflow-x-scroll scrollbar scrollbar-thumb-sky-950 scrollbar-track-sky-200  pb-10 hide-scroll-bar">
             <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
               <div className="inline-block px-3">
                 <div className="w-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-purple-gradient hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
