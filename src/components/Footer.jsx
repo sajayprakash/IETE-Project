@@ -17,16 +17,24 @@ export default function Footer() {
             IETE Chennai centre, No: 37, Conran Smith Road Entrance Peters
             Road,Gopalapuram, Chennai, Tamil Nadu 600086
           </p>
-          <div className="bg-white flex justify-between  mt-8 p-2 pr-0 rounded-md max-w-sm">
+          <form
+            className="bg-white flex justify-between mt-8 p-2 pr-0 rounded-md max-w-sm"
+            onSubmit={() => {
+              window.alert("You will soon receive mails from us!");
+            }}
+          >
             <input
               type="email"
               placeholder="Enter email"
               className="rounded-sm text-black focus:outline-none p-2"
+              required
             />
-            <button className="rounded-lg bg-black mr-3 md:p-3 p-2 md:ml-10">
-              Subscribe
-            </button>
-          </div>
+            <input
+              type="submit"
+              className="rounded-lg bg-black mr-3 md:p-3 p-2 md:ml-10 hover:cursor-pointer"
+              value={"Subscribe"}
+            />
+          </form>
         </div>
         <div className="flex font-light md:text-2xl md:mr-44 pt-6 justify-between">
           <div className="md:pr-32">
