@@ -31,7 +31,7 @@ export default function Footer() {
             />
             <input
               type="submit"
-              className="rounded-lg bg-black mr-3 md:p-3 p-2 md:ml-10 hover:cursor-pointer"
+              className="rounded-lg bg-black mr-3 md:p-3 p-2 md:ml-10 hover:cursor-pointer hover:bg-gray-900"
               value={"Subscribe"}
             />
           </form>
