@@ -1,4 +1,8 @@
-import { IoLogoInstagram, IoLogoYoutube, IoShareSocialOutline } from "react-icons/io5";
+import {
+  IoLogoInstagram,
+  IoLogoYoutube,
+  IoShareSocialOutline,
+} from "react-icons/io5";
 import { BsLinkedin } from "react-icons/bs";
 import { BiSolidContact } from "react-icons/bi";
 export default function Footer() {
@@ -49,7 +53,7 @@ export default function Footer() {
             <h2 className="font-bold mb-2">Socials</h2>
             <ul>
               <li>
-                <a>
+                <a href="">
                   <div className="flex gap-2 items-center">
                     <BsLinkedin></BsLinkedin>
                     LinkedIn
@@ -91,7 +95,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
       </div>
     </footer>
   );
