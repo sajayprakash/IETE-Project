@@ -46,7 +46,7 @@ export default function Contact() {
               <input
                 type="submit"
                 value="Submit"
-                className="bg-purple-gradient p-4 text-white rounded-lg md:mx-36 mx-20"
+                className="bg-purple-gradient p-4 text-white rounded-lg md:mx-36 mx-20 hover:cursor-pointer hover:scale-105 transition-transform"
               />
             </form>
           </div>
