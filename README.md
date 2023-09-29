@@ -1,5 +1,13 @@
 # IETEC Project
 
+> **The event has concluded and we received second place.**
+
+This website was done for the [IETE Chennai](http://ietechennai.in/) website design contest conducted in Tamil Nadu by [IETE](http://ietechennai.in/) on 06/09/2023 by the collective effor of [Sajay Prakash](https://github.com/sajayprakash/), [Purushothaman](https://github.com/purushothaman7) and Sanjeev. 
+
+## Stack:
+- React.js
+- Tailwind CSS
+
 ## How to run the page
 
 Make sure you have npm and pnpm installed.
